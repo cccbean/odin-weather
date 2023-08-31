@@ -1,1 +1,39 @@
+* {
+  margin: 0;
+}
 
+.wrapper {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.container {
+  background-color: lightblue;
+  padding: 16px;
+  border-radius: 16px;
+  display: grid;
+}
+
+.container > * + * {
+  margin-top: 1em;
+}
+
+.search-box {
+  display: flex;
+  gap: 8px;
+}
+
+#search {
+  border-radius: 8px;
+}
+
+.search-btn {
+  display: grid;
+  place-items: center;
+}
+
+.search-icon {
+  width: 16px;
+  height: 16px;
+}
